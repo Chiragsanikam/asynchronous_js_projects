@@ -1,0 +1,30 @@
+button{
+    width: 100px;
+    height: 40px;
+    border-radius:12px;
+    border: 1px solid black;
+    align-content: center;
+    margin: 25px;
+    background-color: rgb(229, 183, 254);
+    color: black;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+    cursor: pointer;
+    height: 45px;
+    width: 110px;
+    border-radius: 15px;
+
+}
+
